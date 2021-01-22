@@ -1,4 +1,4 @@
-"# Library-Management-System-CLI"
+# Library-Management-System-CLI
 
 Library Management Systems CLI is totaly a python scripted project that helps to maintain a database that is useful to enter new books & record books borrowed by the members, with the respective submission dates.
 
