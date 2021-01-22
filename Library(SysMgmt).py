@@ -18,6 +18,7 @@ def onStart():
     elif choice=='1':
         login()
     elif choice=='2':
+        cf.cls()
         mu.register_lib()
     else:
         onStart()
@@ -52,7 +53,7 @@ def onCreate():
     print('===============================')
     print('   Library Management System   ')
     print('-------------------------------')
-    print('1 Book Request\n2 Return Book\n3 Book Accounts\n4 User (Add/Edit)\n5 Book (Add/Edit)\nL Logout\n0 Exit')
+    print('[ 1 ] >> Book Request\n[ 2 ] >> Return Book\n[ 3 ] >> Book Accounts\n[ 4 ] >> User (Add/Edit)\n[ 5 ] >> Book (Add/Edit)\n[ L ] >> Logout\n[ 0 ] >> Exit')
     choice=input('_______________________________\nEnter a choice : ')
     cf.cls()
     if choice=='0':
@@ -81,7 +82,7 @@ def manage_user():
     print('===============================')
     print('       ** MANAGE USERS **      ')
     print('-------------------------------')
-    print('1 Add\n2 Update\n3 Search\n4 Display\n5 Delete\nb Back')
+    print('[ 1 ] >> Add\n[ 2 ] >> Update\n[ 3 ] >> Search\n[ 4 ] >> Display\n[ 5 ] >> Delete\n[ b ] >> Back')
     choice=input('_______________________________\nEnter a choice : ')
     if choice=='0':
         sys.exit('Program terminated Successfully')
@@ -119,7 +120,7 @@ def manage_book():
     print('===============================')
     print('       ** MANAGE BOOKS **      ')
     print('-------------------------------')
-    print('1 Add\n2 Update\n3 Search\n4 Display\n5 Delete\nb Back')
+    print('[ 1 ] >> Add\n[ 2 ] >> Update\n[ 3 ] >> Search\n[ 4 ] >> Display\n[ 5 ] >> Delete\n[ b ] >> Back')
     choice=input('_______________________________\nEnter a choice : ')
     if choice=='0':
         sys.exit('Program terminated Successfully')
@@ -157,7 +158,7 @@ def bookaccount():
     print('\n===============================')
     print('      ** BOOK ACCOUNTS **      ')
     print('-------------------------------')
-    print('1 Reserved Book\n2 Due_Book\n3 Borrow List\n4 Returned List\n5 Fine Book\nb Back\n0 Exit')
+    print('[ 1 ] >> Reserved Book\n[ 2 ] >> Due_Book\n[ 3 ] >> Borrow List\n[ 4 ] >> Returned List\n[ 5 ] >> Fine Book\n[ b ] >> Back\n[ 0 ] >> Exit')
     choice=input('_______________________________\nEnter a choice : ')
     if choice=='0':
         sys.exit('Program terminated Successfully')
