@@ -1,4 +1,4 @@
-**"# Library-Management-System-CLI" **
+"# Library-Management-System-CLI"
 
 Library Management Systems CLI is totaly a python scripted project that helps to maintain a database that is useful to enter new books & record books borrowed by the members, with the respective submission dates.
 
@@ -8,13 +8,13 @@ ________________________________________________________________________________
 This project contains the python skills of :
 _________________________________________________________________________________________________________________________________________________
 * nested if else,
-*nested class, 
-*more use of file handling, 
-*string formating, 
-*print formating,
-*validation, 
-*list methods, 
-*list comprehension.
+* nested class, 
+* more use of file handling, 
+* string formating, 
+* print formating,
+* validation, 
+* list methods, 
+* list comprehension.
 
 This project used the method of file handling system, where all the record of user, books, and accounts are stored in different text files. The data can be fetched to view and can be edited or deleted.
 
